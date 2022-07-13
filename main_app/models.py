@@ -28,9 +28,10 @@ class Player(models.Model):
     age = models.IntegerField()
     team_name = models.CharField(max_length=100)
     games_played = models.IntegerField()
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
 
     def __str__(self):
-        return f"self.name is registered for self.team_name"
+        return self.name
 
     def get_absolute_url(self):
         return reverse('detail', kwargs={'player_id': self.id})

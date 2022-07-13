@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Dog Collector</title>
+    <title>Sideout</title>
     <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
@@ -18,21 +18,26 @@
         <div class="nav-wrapper">
             <ul>
             <li>
-                <a href="/" class="left brand-logo"> Volleyball Roster</a>
+                <a href="/" class="left brand-logo"> Sideout</a>
             </li>
             </ul>
             <ul class="right">
             <li><a href="{% url 'about' %}">About</a></li>
-            <!-- new markup below -->
-            <li><a href="{% url 'index' %}">View My Teams</a></li>
+            {% if user.is_authenticated %}
             <li><a href="{% url 'player_register' %}">Register for a Team</a></li>
-            </ul>
+            <li><a href="{% url 'index' %}">View My Teams</a></li>
+            <li><a href="{% url 'logout' %}">Log Out</a></li>
+            {% else %}
+            <li><a href="{% url 'signup' %}">Sign Up</a></li>
+            <li><a href="{% url 'login' %}">Log In</a></li>
+            {% endif %}
+        </ul>
         </div>
         </nav>
     </header>
     <main class="container">{% block content %} {% endblock %}</main>
     <footer class="page-footer">
-        <div class="right">All Rights Reserved, © 2022 Volleyball Roster</div>
+        <div class="right">All Rights Reserved, © 2022 Sideout</div>
     </footer>
     </body>
 </html>
