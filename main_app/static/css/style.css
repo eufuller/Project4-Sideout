@@ -7,36 +7,40 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size:cover;
-    color: white;
+    /* color: white; */
 }
 
+h1, h4{
+    color: whitesmoke
+}
 .card{
-    background-color: rgb(147, 200, 254);
     box-sizing: border-box;
     border-radius: 10px;
-    opacity: 0.9;
+    opacity: 0.94;
 }
 
 main {
     flex: 1 0 auto;
 }
 
-nav{
-    background-color: pink;
-}
 .page-footer {
-    background-color: pink;
     padding-top: 0;
     text-align: right;
 }
 
 form {
-    background-color: rgb(147, 200, 254);
+    /* color: white; */
     box-sizing: border-box;
     border-radius: 10px;
-    opacity: 0.9;
+    opacity: 0.94;
 }
 
 .btn{
     margin: 5px;
 }
+
+input{
+    color:white
+}
+
+
