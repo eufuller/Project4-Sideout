@@ -16,7 +16,7 @@ def about(request):
 
 @login_required
 def player_index(request):
-    players = player.objects.filter(user=request.user) #only shows each user their own player.
+    players = Player.objects.filter(user=request.user) #only shows each user their own player.
     return render(request, 'players/index.html', { 'players': players })
 
 @login_required
