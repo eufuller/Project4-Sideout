@@ -10,6 +10,7 @@ using the edit or delete buttons on your team detail page.
 <ul><h2>Technologies Used: </h2></ul> 
  <li> Python</li>
  <li> Django</li>
+ <li> Postgresql</li>
  <li> Materialize</li>
  <li> HTML</li>
  <li> CSS</li>
