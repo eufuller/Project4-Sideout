@@ -27,7 +27,8 @@ def player_detail(request, player_id):
 
 class PlayerRegister(LoginRequiredMixin, CreateView):
     model = Player
-    fields = '__all__'
+    fields = ['name', 'age', 'team_name', 'games_played']
+    success_url = '/players/'
 
     def form_valid(self, form):
         form.instance.user = self.request.user
