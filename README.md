@@ -1,4 +1,3 @@
-# Sideout
 <h1>Sideout</h1>
 
 <h2>About the Site:</h2>
@@ -27,7 +26,7 @@ using the edit or delete buttons on your team detail page.
 
 
 <ol><h2>Site Link</h2></ol>
- <li>View deployed app here: [https://sideout-roster.herokuapp.com/]</li>
+<li>View deployed app here: [https://sideout-roster.herokuapp.com/]</li>
  
 
 <h2>Future Enhancements:</h2>
