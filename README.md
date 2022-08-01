@@ -20,7 +20,7 @@ using the edit or delete buttons on your team detail page.
  <h2>Features:</h2>
  <li> User authorization and authentication</li>
  <li> Full CRUD functionality</li>
- <li> User specifi content</li>
+ <li> User specific content</li>
    
 <h2>Inside Look</h2>
 <img src="https://i.imgur.com/mX0gRBC.png">
@@ -31,4 +31,4 @@ using the edit or delete buttons on your team detail page.
  
 
 <h2>Future Enhancements:</h2>
-In the future I would like to implement another model for teams that will show the names of all users who have chosen the same team on a team index page.
+In the future I would like to implement another model for teams, that will show the names of all users who have chosen the same team on a team index page.
