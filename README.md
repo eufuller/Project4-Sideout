@@ -2,7 +2,7 @@
 
 <h2>About the Site:</h2>
 
-Welcome to Sideout, your one-stop application to create, assign, and track your team, games played, and games won/lost.
+Welcome to Sideout, your one-stop application to create and assign player to your team, and track your games played, and games won/lost.
 If you have not already created an account please follow the "Sign Up" link, to get started on creating your team and player profile. 
 You can register for as many teams as you'd like, and if you find that you've made a mistake in your team name or any other info., you can remedy this by 
 using the edit or delete buttons on your team detail page.
