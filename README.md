@@ -14,7 +14,7 @@ using the edit or delete buttons on your team detail page.
  <li> Materialize</li>
  <li> HTML</li>
  <li> CSS</li>
- <li> Heroku</li>
+ <li> Render</li>
  <li>CSS Flexbox</li>
   
  <h2>Features:</h2>
@@ -27,7 +27,7 @@ using the edit or delete buttons on your team detail page.
 
 
 <ol><h2>Site Link</h2></ol>
-<li>View deployed app here: https://sideout-roster.herokuapp.com/</li>
+<li>View deployed app here: https://sideout-app.onrender.com/</li>
  
 
 <h2>Future Enhancements:</h2>
