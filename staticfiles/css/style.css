@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    /* background-color: aliceblue; */
+    background-image: url("https://www.calmsage.com/wp-content/uploads/2020/04/Hues-of-blue-perfect-to-find-your-calm..jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size:cover;
+}
+
+h1, h4{
+    color: whitesmoke
+}
+.card{
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.94;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.page-footer {
+    padding-top: 0;
+    text-align: right;
+}
+
+form {
+    /* color: white; */
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.94;
+}
+
+.btn{
+    margin: 5px;
+}
+
+.right {
+    height: 3vh;
+}
+/* 
+.logo{
+    width: 95px;
+    height: 5vh;
+} */
+
+
