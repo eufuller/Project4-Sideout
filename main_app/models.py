@@ -11,7 +11,7 @@ from django.contrib.auth.models import User
 # Create your models here.
 
 
-# class Team(models.Model):
+# class Team(models.Model):   Need to figure out how to incorporate Team model as a many to many relationship
 #     name = models.CharField(
 #         max_length=1,
 #         choices=TEAMS,
