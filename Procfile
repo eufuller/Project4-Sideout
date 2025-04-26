@@ -1,1 +1,1 @@
-web: gunicorn vb_roster.wsgi
+web: gunicorn vb_roster.wsgi:application
